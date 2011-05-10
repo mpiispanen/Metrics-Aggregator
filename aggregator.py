@@ -108,7 +108,7 @@ meanNoMethodCalls = r.mean(robjects.IntVector(noMethodsCalled))[0]
 
 medianMcCabe =r.median(robjects.IntVector(McCabes))[0]
 medianNoStatements = r.median(robjects.IntVector(noStatements))[0]
-meadianNoMethodCalls = r.median(robjects.IntVector(noMethodsCalled))[0]
+medianNoMethodCalls = r.median(robjects.IntVector(noMethodsCalled))[0]
 
 coeffMcCabe = ineq.var_coeff(robjects.IntVector(McCabes))[0]
 coeffNoStatements = ineq.var_coeff(robjects.IntVector(noStatements))[0]
